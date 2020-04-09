@@ -83,7 +83,7 @@ $("#wsp-do").click(function(){
 	  var wsp_link = location.href + '?t=' + Base64.encode('[{"name":"'+$('#wsp-name').val()+'","text":"'+wsp_text+'"}]');
 	  var shortlink_api = 'https://api.uomg.com/api/long2dwz?dwzapi=tcn&url='+wsp_link;
       $.getJSON(shortlink_api, function(data){ 
-	    if(data.code==1 && data.ae_url){
+	    if(data.ae_url){
 	      wsp_link = data.ae_url;
 		}
 		else {
@@ -114,7 +114,7 @@ $("#wsp-reply").click(function(){
 	  var wsp_link = location.host + location.pathname + '?t=' + wsp_json;
 	  var shortlink_api = 'https://api.uomg.com/api/long2dwz?dwzapi=tcn&url='+wsp_link;
 	  $.getJSON(shortlink_api, function(data){ 
-	    if(data.code==1 && data.ae_url){
+	    if(data.ae_url){
 	      wsp_link = data.ae_url;
 		}
 		else {
