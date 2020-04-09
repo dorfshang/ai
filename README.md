@@ -1,7 +1,9 @@
-<h1 align="center">Whisper</h1>
+<h1 align="center">Whisper Beta</h1>
 <p align="center">Serverless · Secret · Safe</p>
 
 ---
+
+![](./screenshot.png)
 
 ## 这是什么？
 
