@@ -54,7 +54,7 @@ function finishLoad() {
 	    console.log('DATA LENGTH: \n'+obj_length)
 	  }//endif
 	  //echo all the dialog
-	  $('#ct').prepend('<h1>Dialog</h1><hr>');
+	  $('#ct').prepend('<h1>Whisper</h1><hr>');
 	  for(var i in obj){
 		$('#ct').append('<div class="wsp-item"><div class"wsp-name">' + obj[i].name + '</div><div class="wsp-content">' + obj[i].text + '</div></div>');
 	  }
