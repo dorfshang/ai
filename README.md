@@ -1,8 +1,6 @@
 <h1 align="center">Whisper Beta</h1>
 <p align="center">Serverless · Secret · Safe</p>
 
----
-
 ![](./screenshot.png)
 
 ## 这是什么？
@@ -24,6 +22,8 @@ Whisper，顾名思义，意思是“悄悄话”。这个超简单的程序能�
 访问 Whisper 演示站：https://bigcoke233.github.io/whisper  
 输入你的 whisper 并创建对话，发给你的朋友，就可以进行无痕迹的对话了。尽管这不太方便，但它可能会在某些地方派上用场。
 
-## 自己搭建
+如果你想要自己搭建，Whisper 是纯静态的，你可以直接 fork 到你的仓库并打开 GitHub Pages；或者下载/ Clone 之后上传到你的服务器。之后访问域名即可。
 
-Whisper 是纯静态的，你可以直接 fork 到你的仓库并打开 GitHub Pages；或者下载/ Clone 之后上传到你的服务器。之后访问域名即可。
+---
+
+Copyright &copy; 2020 Eltrac Koalar(BigCoke233), released under MIT License.
