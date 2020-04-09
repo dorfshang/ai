@@ -22,3 +22,52 @@ body {
 	height: 100vh;
 	line-height: 100vh
 }
+
+#wsp-name, #wsp-text {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	margin: 4px 0;
+	border: 2px solid #ddd;
+	padding: 10px 15px;
+	border-radius: 3px
+}
+
+#wsp-text {
+	height: 120px
+}
+
+#wsp-do, #wsp-reply {
+	border: none;
+	padding: 10px 15px;
+	background: #4D90FE;
+	color: #fff;
+	border-radius: 3px;
+	display: block;
+	width: 100%
+}
+
+hr {
+	border: none;
+	border-bottom: 2px dashed rgb(230,230,230);
+	margin: 20px 0;
+}
+
+.container h1 {
+	margin: 1em 0;
+	margin-bottom: 0.4em;
+	color: #4D90FE
+}
+
+.wsp-item {
+	margin: 10px 0;
+	color: rgb(50,50,50)
+}
+
+.wsp-item-name {
+	color: #4D90FE
+}
+
+.wsp-item-name:after {
+	content: ':';
+}

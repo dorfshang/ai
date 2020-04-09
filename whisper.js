@@ -56,15 +56,15 @@ function finishLoad() {
 	  //echo all the dialog
 	  $('#ct').prepend('<h1>Whisper</h1><hr>');
 	  for(var i in obj){
-		$('#ct').append('<div class="wsp-item"><div class"wsp-name">' + obj[i].name + '</div><div class="wsp-content">' + obj[i].text + '</div></div>');
+		$('#ct').append('<div class="wsp-item"><div class="wsp-item-name">' + obj[i].name + '</div><div class="wsp-item-content">' + obj[i].text + '</div></div>');
 	  }
-	  $('#ct').append('<hr><div class="wsp-reply"><input type="text" id="wsp-name" placeholder="Name*" /><br><textarea id="wsp-text" placeholder="Type your whisper."></textarea><br><button id="wsp-reply">Whisper</button><div class="wsp-link" id="wsp-link-output"></div></div>');
+	  $('#ct').append('<hr><div class="wsp-reply"><input type="text" id="wsp-name" placeholder="Name*" /><textarea id="wsp-text" placeholder="Type something to reply."></textarea><button id="wsp-reply">Reply</button><div class="wsp-link" id="wsp-link-output"></div></div>');
 	  finishLoad();
 	}else{
       //if not
 	  finishLoad();
 	  //output the textarea and button
-	  $('#ct').html('<h1>Whisper</h1><hr><input type="text" id="wsp-name" placeholder="Name*" /><br><textarea id="wsp-text" placeholder="Type your whisper."></textarea><br><button id="wsp-do">Whisper</button><div class="wsp-link" id="wsp-link-output"></div>');
+	  $('#ct').html('<h1>Whisper</h1><hr><input type="text" id="wsp-name" placeholder="Name*" /><textarea id="wsp-text" placeholder="Type your whisper."></textarea><button id="wsp-do">Whisper</button><div class="wsp-link" id="wsp-link-output"></div>');
 	}
 })();
 
