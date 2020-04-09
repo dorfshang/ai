@@ -26,4 +26,16 @@ Whisper，顾名思义，意思是“悄悄话”。这个超简单的程序能�
 
 ---
 
+## 已知 Bug
+
+- 回复 Whisper 时不返回短链接而是备用的完整链接
+
+## 开发计划
+
+- [ ] 允许在 Whisper 和 Reply 中添加图片
+- [ ] 支持简单的主题功能（动态引入不同的 css）
+- [ ] 允许使用表情（不优先考虑）
+
+---
+
 Copyright &copy; 2020 Eltrac Koalar(BigCoke233), released under MIT License.
