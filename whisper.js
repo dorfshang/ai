@@ -111,7 +111,7 @@ $("#wsp-reply").click(function(){
 	  oldObj.push(newObj);
 	  var Obj = oldObj;
 	  var wsp_json = Base64.encode(JSON.stringify(Obj));
-	  var wsp_link = location.href + '?t=' + wsp_json;
+	  var wsp_link = location.host + location.pathname + '?t=' + wsp_json;
 	  var shortlink_api = 'https://api.uomg.com/api/long2dwz?dwzapi=tcn&url='+wsp_link;
 	  $.getJSON(shortlink_api, function(data){ 
 	    if(data.code==1 && data.ae_url){
