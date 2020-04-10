@@ -114,12 +114,7 @@ $("#wsp-reply").click(function(){
 	  var wsp_link = location.host + location.pathname + '?t=' + wsp_json;
 	  var shortlink_api = 'https://api.uomg.com/api/long2dwz?dwzapi=tcn&url='+wsp_link;
 	  $.getJSON(shortlink_api, function(data){ 
-	    if(data.ae_url){
-	      wsp_link = data.ae_url;
-		}
-		else {
-		  wsp_link = 'Something went wrong, try refreshing this page or contact the admin.';
-		}
+	    wsp_link = data.ae_url;
 	    $('#wsp-link-output').text(wsp_link);
       });
   }
