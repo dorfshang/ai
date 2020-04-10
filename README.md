@@ -1,4 +1,4 @@
-<h1 align="center">Whisper Beta</h1>
+<h1 align="center">Whisper Beta 0.0.1</h1>
 <p align="center">Serverless · Secret · Safe</p>
 
 ![](./screenshot.png)
