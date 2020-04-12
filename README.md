@@ -47,6 +47,11 @@ Whisper，顾名思义，意思是“悄悄话”。这个超简单的程序能�
 - [ ] 对话密码，输入密码才能查看内容
 - [ ] 允许使用表情（不优先考虑）
 
+## 引用的项目
+
+- [js-base64](https://github.com/dankogai/js-base64)
+- [jQuery](https://github.com/jquery/jquery)
+
 ---
 
 Copyright &copy; 2020 Eltrac Koalar(BigCoke233), released under MIT License.
