@@ -1,7 +1,9 @@
 <h1 align="center">Whisper Beta 0.0.1</h1>
-<p align="center">Serverless · Secret · Safe</p>
+<p align="center">~~Serverless · Secret · Secure~~</p>
 
 ![](./screenshot.png)
+
+**这项目就是个垃圾，别用了（后仰**
 
 ## 这是什么？
 
