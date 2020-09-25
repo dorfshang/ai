@@ -1,5 +1,5 @@
 <h1 align="center">Whisper Beta 0.0.1</h1>
-<p align="center">~~Serverless · Secret · Secure~~</p>
+<p align="center"><del>Serverless · Secret · Secure</del></p>
 
 ![](./screenshot.png)
 
